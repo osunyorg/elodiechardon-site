@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Haïkus
-  target: "/haikus/"
+  target: "/poemes/"
   kind: page
   children: []
 - title: À propos

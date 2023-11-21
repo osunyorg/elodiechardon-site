@@ -1,0 +1,42 @@
+@include media-breakpoint-up(desktop)
+    header#document-header
+        nav 
+            .logo
+                margin-bottom: $spacing1
+            .container
+                flex-direction: column
+            .menu 
+                .nav-level-1 
+                    > li:last-child 
+                        a, 
+                        span
+                            padding-left: $spacing0
+                            padding-right: $spacing0
+    .hero 
+        .content 
+            > h1, 
+            > hgroup
+                width: 100%
+                text-align: center
+        &--with-image
+            figure
+                display: none !important
+    footer#document-footer
+        .container
+            justify-content: center
+            text-align: center
+
+.hero--with-image
+    figure
+        display: none !important
+.blocks
+    .block-gallery--grid
+        .gallery
+            display: block !important
+            @include media-breakpoint-up(desktop)
+                padding-left: offset(2)
+                width: col(10)
+                figure
+                    margin-bottom: $spacing4
+.lead
+    font-style: italic

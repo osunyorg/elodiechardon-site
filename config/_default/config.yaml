@@ -7,3 +7,15 @@ params:
     position: hero
   search:
     active: false  
+  breadcrumb:
+    position: none
+  logo:
+    header: /assets/images/chardon.png
+    footer: /assets/images/chardon.png
+  image_sizes:
+    blocks:
+      gallery:
+        grid:
+          mobile:   400
+          tablet:   600
+          desktop:  800

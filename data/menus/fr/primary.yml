@@ -5,4 +5,8 @@ items:
   target: "/elodie-chardon/"
   kind: page
   children: []
+- title: Haïkus
+  target: "/haikus/"
+  kind: page
+  children: []
 

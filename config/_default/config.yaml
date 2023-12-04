@@ -18,5 +18,5 @@ params:
       gallery:
         grid:
           mobile:   400
-          tablet:   600
-          desktop:  800
+          tablet:   800
+          desktop:  1200

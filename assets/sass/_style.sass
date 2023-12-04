@@ -25,23 +25,30 @@
         .container:first-of-type
             justify-content: center
 
-    //     .container
-    //         justify-content: center
-    //         text-align: center
-    //     .container + .container
-    //         background: red
-
 .hero--with-image
+    @include media-breakpoint-down(desktop)
+        .container
+            margin-bottom: 0 !important
     figure
         display: none !important
-.blocks
-    .block-gallery--grid
-        .gallery
-            display: block !important
-            @include media-breakpoint-up(desktop)
-                padding-left: offset(2)
-                width: col(10)
-                figure
-                    margin-bottom: $spacing4
+
+body:not(.grid-2)
+    .blocks
+        .block-gallery--grid
+            .gallery
+                display: block !important
+                @include media-breakpoint-up(desktop)
+                    padding-left: offset(2)
+                    width: col(10)
+                    figure
+                        margin-bottom: $spacing4
+.grid-2
+    .blocks
+        .block-gallery--grid
+            .gallery
+                @include media-breakpoint-down(desktop)
+                    display: block !important
+                @include media-breakpoint-up(desktop)
+                    grid-template-columns: repeat(2, 1fr)
 .lead
     font-style: italic

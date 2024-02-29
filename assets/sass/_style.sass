@@ -2,7 +2,7 @@
     header#document-header
         nav 
             .logo
-                margin-bottom: $spacing1
+                margin-bottom: $spacing-3
             .container
                 flex-direction: column
             .menu 
@@ -10,14 +10,15 @@
                     > li:last-child 
                         a, 
                         span
-                            padding-left: $spacing0
-                            padding-right: $spacing0
+                            padding-left: $spacing-2
+                            padding-right: $spacing-2
     .hero 
-        .content 
-            > h1, 
-            > hgroup
+        .content
+            .hero-text
                 width: 100%
-                text-align: center
+                > h1, 
+                > hgroup
+                    text-align: center
         &--with-image
             figure
                 display: none !important
@@ -39,9 +40,9 @@ body:not(.grid-2)
                 display: block !important
                 @include media-breakpoint-up(desktop)
                     padding-left: offset(2)
-                    width: col(10)
+                    width: columns(10)
                     figure
-                        margin-bottom: $spacing4
+                        margin-bottom: $spacing-6
 .grid-2
     .blocks
         .block-gallery--grid

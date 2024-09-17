@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Illustrations
-  target: "/projets/"
+  target: "/illustrations/"
   kind: page
   children: []
 - title: Ecriture

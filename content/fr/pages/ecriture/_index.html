@@ -57,14 +57,27 @@ contents:
       
     ranks:
       self: false
+      children: 2
     data:
       options:
         image: true
-        main_summary: true
+        main_summary: false
         summary: true
 
-      layout: grid
+      layout: cards
       pages:
+        - path: "/poemes/"
+          slug: "poemes"
+          file: "pages/poemes/_index.html"
+          external: false
+        - path: "/micronouvelles/"
+          slug: "micronouvelles"
+          file: "pages/micronouvelles/_index.html"
+          external: false
+        - path: "/cellule/"
+          slug: "cellule"
+          file: "pages/cellule/_index.html"
+          external: false
 
 
 

@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Illustrations
+  target: "/projets/"
+  kind: page
+  children: []
 - title: Poèmes
   target: "/poemes/"
   kind: page
@@ -11,10 +15,6 @@ items:
   children: []
 - title: À propos
   target: "/a-propos/"
-  kind: page
-  children: []
-- title: Illustrations
-  target: "/projets/"
   kind: page
   children: []
 

@@ -13,4 +13,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Illustrations
+  target: "/projets/"
+  kind: page
+  children: []
 

@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Illustrations
-  target: https://www.elodiechardon.fr/projets/illustrations/
-  kind: url
-  children: []
 - title: Poèmes
   target: "/poemes/"
   kind: page

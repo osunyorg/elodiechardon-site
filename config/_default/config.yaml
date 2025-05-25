@@ -1,13 +1,11 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
 params:
   plausible: elodiechardon.fr
   summary:
     position: hero
   search:
-    active: false  
+    active: false
   breadcrumb:
     position: none
   logo:
